@@ -21,7 +21,7 @@ key:Textbox("Key", "Please type your key here!", true, function(t)
 key:Button("Sumbit key", function()
     
 local system = game:GetService("CoreGui").Discord.MainFrame.TopFrame.TopFrameHolder.ServersHolder.ServerFrame.ChannelContentFrame.ChannelHolder.Textbox.TextboxTitle.TextboxFrame.TextBox
-if system.Text == "godlypiekornik" then
+if system.Text == "piekornikisgod" then
     wait(1)
     game.StarterGui:SetCore("SendNotification", {
 
